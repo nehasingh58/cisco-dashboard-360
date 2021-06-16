@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css"> 
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css"> 
+    <link rel="stylesheet" href="assets/css/slick.css"> 
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/multi-select.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <title>Cisco</title>
+  </head>
+  <body>
+    <header class="mainHeader">
+      <div class="headerBlk">
+          <img src="assets/images/cisco-logo.png" alt="" class="logo" />
+          <h3 class="heeadTitle">Sample Header Placeholder</h3>
+          <div class="dropdown userProfile">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-user-alt"></i> 
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Dashboard</a>
+              <a class="dropdown-item" href="#">Logout</a> 
+            </div>
+          </div>
+      </div>
+    </header>
+    <section class="mainFilterBlk">
+        <div class="innerFilter">
+            <a href="javaScript:void(0)" class="filterBtn">CONFIGURATION<i class="fas fa-cogs clearFilterIco"></i></a>
+            <a href="javaScript:void(0)" class="filterBtn">ORG LEVEL FILTER<i class="fa fa-filter"></i></a>
+            <a href="javaScript:void(0)" class="filterBtn">OPEN GRAPH<i class="fas fa-expand-alt"></i></a> 
+            <div class="multi-selectBox">
+              <select id="people" name="people" multiple>
+                  <option value="daily">Daily</option>
+                  <option value="weekly">Weekly</option>
+                  <option value="monthly">Monthly</option>
+                  <option value="yearly">Yearly</option>
+              </select>
+            </div>
+            <button class="btn btn-primary filter-btn">APPLY</button>
+            <i class="fas fa-redo clearFilterIco"></i>
+        </div>
+        <div class="accordion salesMainBlk" id="salesMainBlk">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Sales, Sales Category, Sales Compensation
+                  <i class="fas fa-chevron-down"></i>
+                </button>
+              </h2>
+            </div>
+
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#salesMainBlk">
+              <h2 class="title">Alert Category</h2>
+              <div class="card-body salesContentBox">
+                  <div class="card">
+                    <div class="card-body">
+                      This is some text within a card body.
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-body">
+                      This is some text within a card body.
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-body">
+                      This is some text within a card body.
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div> 
+        </div> 
+        <div class="slider sliderContent responsive">
+          <div>
+            <h3>KPI 1</h3>
+          </div>
+          <div>
+            <h3>KPI 2</h3>
+          </div>
+          <div>
+            <h3>KPI 3</h3>
+          </div>
+          <div>
+            <h3>KPI 4</h3>
+          </div>
+          <div>
+            <h3>KPI 5</h3>
+          </div>
+          <div>
+            <h3>KPI 6</h3>
+          </div>
+          <div>
+            <h3>KPI 7</h3>
+          </div>
+          <div>
+            <h3>KPI 8</h3>
+          </div>
+        </div>
+        <div class="mainChartBlk"> 
+            <div class="card chartBlk">
+              <h3><i class="fa fa-filter"></i> Chart 1</h3>
+              <!-- <canvas id="barChart" width="650" height="300"></canvas> -->
+              <div class="chartDiv">Chart 1</div>
+            </div>
+            <div class="card chartBlk">
+              <h3><i class="fa fa-filter"></i> Chart 2</h3>
+              <!-- <canvas id="pieChart" width="550px" height="550px"></canvas> -->
+              <div class="chartDiv">Chart 2</div>
+            </div> 
+          </div>
+        <div class="mainChartBlk"> 
+            <div class="card chartBlk" style="margin-right: 0;">
+              <h3><i class="fa fa-filter"></i> Chart 3</h3>
+              <!-- <canvas id="lineChart" width="600" height="400"></canvas> -->
+              <div class="chartDiv">Chart 3</div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+      <p>&copy; All right reserved.</p>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/fontawesome.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://www.jqueryscript.net/demo/jQuery-Plugin-For-Multiple-Select-With-Checkboxes-multi-select-js/jquery.multi-select.js?v2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    <script src="../attachments/assets/js/main.js"></script>
+  </body>
+</html>

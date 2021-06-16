@@ -1,0 +1,229 @@
+body{
+	margin: 0;
+    font-family: arial;
+}
+.mainHeader{
+	height: 60px;
+    background: #f5f5f5;
+}
+.headerBlk{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding: 0 25px;
+}
+.logo{
+    width: 100px;
+    flex: 0;
+}
+.heeadTitle{
+    margin: 0;
+    padding: 0;
+    flex: 1;
+    text-align: center;
+    font-weight: 100;
+    font-size: 21px;
+}
+.dropdown-menu.show{  
+    left: -47px!important;
+    margin-left: 35px;
+}
+.mainFilterBlk{
+    margin: 25px 25px 60px;
+}
+.innerFilter{
+    display: flex;
+    justify-content: center;
+    border: 2px solid #f5f5f5;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 0 0 15px;
+    background: #fafafa;
+}
+.filterBtn, .filterBtn:hover{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    background: #07a6de;
+    color: #fff;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 20px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+.filter-btn,.filter-btn:hover{
+    background: #d40614;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 14px;
+    padding: 0 20px;
+    border: none;
+    position: relative;
+}
+.filterBtn .fa-expand-alt,.filterBtn .fa-filter{
+    position: relative;
+    right: -18px;
+    width: 22px;
+    top: -1px;
+}
+.clearFilterIco{
+	margin: 8px 0px 0 15px;
+    color: black;
+    cursor: pointer;
+}
+.accordion.salesMainBlk>.card{
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 4px;
+}
+.accordion.salesMainBlk>.card .card-header{
+    margin: 0;
+    background: #f9f9f9;
+    padding: 0;
+    border: 0px solid #eee;
+}
+.accordion.salesMainBlk>.card .card-header .btn{
+    font-weight: bold;
+    color: #000;
+    border: none;
+    box-shadow: none;
+    width: 100%;
+    text-align: left;
+    text-decoration: none;
+}
+.accordion.salesMainBlk>.card .card-header .btn .fa-chevron-down{
+    float: right;
+    transition: all 0.325s ease;
+    margin-right: 5px;
+}
+.accordion.salesMainBlk>.card .card-header .btn[aria-expanded="true"] .fa-chevron-down{
+    transform: rotate(180deg);
+}
+.salesMainBlk h2.title{
+    margin: 15px 15px 0;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.salesContentBox{
+    display: flex;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.salesContentBox .card{
+    flex: 1;
+    margin: 0 10px;
+}
+.slick-initialized.sliderContent .slick-slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background: #fafafa;
+    margin: 0 10px;
+}
+.sliderContent{
+    margin: 30px 0;
+}
+.sliderContent .slick-prev, .sliderContent .slick-next{
+	z-index: 9;
+    background: red;
+}
+.sliderContent .slick-prev{
+    left: 0;
+    background: #fff url(../images/next.png) no-repeat;
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    transform:rotate(180deg);
+    top: 32px;
+}
+.sliderContent .slick-next{
+    right: 0;
+    background: #fff url(../images/next.png) no-repeat;
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    top: 48px;
+}
+.sliderContent .slick-next:before,.sliderContent .slick-prev:before{
+	content:"";
+}
+.chartBlk{ 
+	width: 40%;
+	flex: 1;
+	height: 350px;
+    align-items: center;
+}
+.mainChartBlk{
+    display: flex;
+    margin-bottom: 20px;
+}
+.mainChartBlk .card:first-child{
+	margin-right: 15px;
+} 
+.mainChartBlk h3{
+	background: #fafafa;
+    padding: 6px 10px;
+    font-size: 15px;
+    font-weight: bolder;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    margin: 0;
+    width: 100%;
+}
+.userProfile .dropdown-toggle{
+    color: #01a4dd;
+    background: #fff;
+    border: transparent;
+    font-size: 25px;
+    border-radius: 0;
+    height: 58px;
+    outline: none;
+}
+.chartDiv{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    clear: both;
+    height: 317px;
+    font-weight: 100;
+    color: #666;
+    font-size: 22px;
+}
+.footer{
+    position: relative;
+    bottom: 0;
+    height: 30px;
+    background: #ebebe0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer p{
+    margin: 0;
+    font-size: 12px;
+    font-weight: bold;
+    color: #666;
+}
+
+.multi-selectBox .multi-select-container{
+    margin-right: 10px;
+}
+.multi-selectBox .multi-select-container .multi-select-button,
+.multi-selectBox select{
+    height: 32px;
+    line-height: 30px;
+    padding: 0 20px;
+    min-width: 150px;
+}
+#pieChart{    
+	width: 500px!important;
+    height: 500px!important;
+}
+#barChart{
+    height: 500px!important;
+}
+#lineChart{
+    height: 500px!important;
+}
